@@ -11,7 +11,7 @@ fct_orders as (
 		amount
 	from orders o
 	left join payments p 
-		on o.order_id = p.order_id
+		on o.order_id = p.orderid
 )
 
 select * from fct_orders

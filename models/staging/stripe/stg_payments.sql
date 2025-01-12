@@ -1,7 +1,7 @@
 with payments as (
     SELECT
         id as payment_id,
-        order_id,
+        orderid,
         paymentmethod,
         status,
         amount,
